@@ -26,7 +26,7 @@ import java.util.ArrayList;
  * 修改com.flyco.pageindicator.indicator.FlycoPageIndicaor
  * 不引用com.nineoldandroids包，不支持api11以下的手机
  * 修正广告轮播时，指示器的错误
- * bintray key :3a64fd6c4cb4979339a59fe2291fa0e08549cedb
+ *
  * @author Extends
  */
 public class FreePageIndicaor extends LinearLayout implements PageIndicator {
@@ -223,7 +223,7 @@ public class FreePageIndicaor extends LinearLayout implements PageIndicator {
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
         if (!isSnap) {
             /**
-             * position:当前View的位置
+             * position:当前View的位�?
              * positionOffset:当前View的偏移量比例.[0,1)
              */
             this.currentItem = position%this.count;
