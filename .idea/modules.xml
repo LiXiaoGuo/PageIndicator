@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/PageIndicator.iml" filepath="$PROJECT_DIR$/PageIndicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pageindicators/pageindicator.iml" filepath="$PROJECT_DIR$/pageindicators/pageindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pageindicators/pageindicators.iml" filepath="$PROJECT_DIR$/pageindicators/pageindicators.iml" />
     </modules>
   </component>
 </project>
