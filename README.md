@@ -4,7 +4,7 @@ viewpager的指示器
  修改于[H07000223/FlycoPageIndicator](https://github.com/H07000223/FlycoPageIndicator)
 
 ## Demo
-<!-- ![](https://github.com/H07000223/FlycoPageIndicator/blob/master/preview_FlycoPageIndicator.gif)-->
+![](https://github.com/H07000223/FlycoPageIndicator/blob/master/preview_FlycoPageIndicator.gif)
 Demo图片引用于[H07000223/FlycoPageIndicator](https://github.com/H07000223/FlycoPageIndicator)项目
 
 ## 修改内容
