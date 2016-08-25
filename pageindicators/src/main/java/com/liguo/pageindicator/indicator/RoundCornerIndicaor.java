@@ -212,13 +212,12 @@ public class RoundCornerIndicaor extends View implements PageIndicator {
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
         if (!isSnap) {
             /**
              * position:当前View的位置
              * positionOffset:当前View的偏移量比例.[0,1)
              */
-            currentItem = position;
+            currentItem = position%this.count;
             this.positionOffset = positionOffset;
             invalidate();
         }
@@ -227,7 +226,7 @@ public class RoundCornerIndicaor extends View implements PageIndicator {
     /** 在ViewPager.OnPageChangeListener的onPageSelected方法中调用,不要同时调用onPageScrolled,会出现闪烁情况 */
     public void onPageSelected(int position) {
         if (isSnap) {
-            currentItem = position;
+            currentItem = position%this.count;
             invalidate();
         }
     }

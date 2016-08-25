@@ -239,13 +239,13 @@ public class FreePageIndicaor extends LinearLayout implements PageIndicator {
     @Override
     public void onPageSelected(int position) {
         if (isSnap) {
-            this.currentItem = position;
+            this.currentItem = position%this.count;
 
             for (int i = 0; i < indicatorViews.size(); i++) {
-                indicatorViews.get(i).setImageDrawable(i == position ? selectDrawable : unSelectDrawable);
+                indicatorViews.get(i).setImageDrawable(i == currentItem ? selectDrawable : unSelectDrawable);
             }
-            animSwitch(position);
-            lastItem = position;
+            animSwitch(currentItem);
+            lastItem = currentItem;
         }
     }
 
